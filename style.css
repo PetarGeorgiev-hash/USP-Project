@@ -1,118 +1,191 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
-.space{
-    display: flex;
-    justify-content: space-around;
+.space {
+  display: flex;
+  justify-content: space-around;
 }
 
 #FirstHeader {
-    height: 3rem;
-    width: 100%;
-    background-color: #0090FF;
+  height: 3rem;
+  width: 100%;
+  background-color: #0090ff;
 }
-#Contacts{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    gap: 1rem;
+
+#Contacts {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
 }
-#Email{
- display: flex;
- align-items: center;
+
+#Email {
+  display: flex;
+  align-items: center;
 }
-#TelephoneNum{
-    margin-right: 1rem;
+
+#TelephoneNum {
+  margin-right: 1rem;
 }
-#SecondHeader{
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+
+#SecondHeader {
+  position: sticky;
+  top: 0;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: white;
 }
-#Image img{
-    height: 4rem;
-    margin-left: 3rem;
+
+#imageAndText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#V-Safe{
-  color: #0090FF;
+
+#Image img {
+  height: 4rem;
+  margin-left: 3rem;
+}
+
+#V-Safe {
+  color: #0090ff;
   font-size: 2rem;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
-#About{
-    display: flex;
-    gap: 2rem;
-    margin-left: 25%;
+
+#About {
+  display: flex;
+  gap: 2rem;
 }
-#MyProfile{
-    margin-left: auto;
-    padding-right: 6rem;
+
+#MyProfile {
+  padding-right: 6rem;
 }
-#MainPhoto{
-    height: 40rem;
-    display: block;
+
+#MainPhoto {
+  height: 40rem;
+  display: block;
 }
-#Content{
-    height: 100%;
-    background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2020/10/16/thumbs_b_c_9e99c382646e91ed6fd6e2a7a38dab4b.jpg?v=180444");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;    
+
+#Content {
+  height: 100%;
+  background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2020/10/16/thumbs_b_c_9e99c382646e91ed6fd6e2a7a38dab4b.jpg?v=180444");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
-#SafeYourHealth{
-    margin-top: 12rem;
+
+#SafeYourHealth {
+  margin-top: 12rem;
 }
-#Safe{
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
+
+#Safe {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
 }
-#Buttons{
-    font-size: 1.5rem;
-    margin-top: 15rem;
-    display: flex;
-    justify-content: space-between;
+
+#Buttons {
+  font-size: 1.5rem;
+  margin-top: 15rem;
+  display: flex;
+  justify-content: space-between;
 }
-#WorkHoursAndMore{
- display: flex;
- justify-content: space-around;
+
+#WorkHoursAndMore {
+  display: flex;
+  justify-content: space-around;
 }
-#WorkShift{
-    position: relative;
-    bottom: 5rem;
-    /*margin-left: 10rem;*/
-    height: 17.5rem;
-    width: 15rem;
-    background-color: #0090FF;
+
+#WorkShift {
+  position: relative;
+  bottom: 5rem;
+  /*margin-left: 10rem;*/
+  height: 17.5rem;
+  width: 15rem;
+  background-color: #0090ff;
+  border-radius: 10%;
+  border: 0.1rem solid black;
 }
-#WorkTime{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2rem;
+
+#WorkTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
 }
-#WorkTimeChild{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+
+#WorkTimeChild {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-#Tuesday{
-    gap: 1.2rem;
+
+#Tuesday {
+  gap: 1.2rem;
 }
-#Wednessday{
-    gap: 2.2rem
+
+#Wednessday {
+  gap: 2.2rem;
 }
-#Thursday{
-    margin-right: 0.1rem;
+
+#Thursday {
+  margin-right: 0.1rem;
 }
-#Friday{
-    gap: 1.5rem;
+
+#Friday {
+  gap: 1.5rem;
 }
-#Saturday{
-    gap: 1.2rem;
+
+#Saturday {
+  gap: 1.2rem;
+}
+
+#AskDoctor {
+  position: relative;
+  bottom: 5rem;
+  /*margin-left: 10rem;*/
+  height: 17.5rem;
+  width: 15rem;
+  background-color: #ff8c00;
+  border-radius: 10%;
+  border: 0.1rem solid black;
+}
+#Inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#Ask {
+  margin-top: 0.8rem;
+}
+select {
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+  border: 0.1rem solid black;
+}
+input {
+  padding: 0.1rem 0.8rem;
+  border: 0.1rem solid black;
+}
+#AskButton {
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  border-radius: 10%;
+  border-color: black;
+  background-color: white;
+}
+#AskButton:hover {
+  background-color: #0090ff;
 }
