@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#FirstHeader {
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#Contacts{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
+#Email{
+ display: flex;
+ color: blue;
+ align-items: center;
+}
+#TelephoneNum{
+    color: green;
+    margin-right: 1rem;
+}
+#SecondHeader{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#Image img{
+    height: 4rem;
+    margin-left: 3rem;
+}
+#V-Safe{
+  color: blue;
+  font-size: 2rem;
+  font-family:Arial, Helvetica, sans-serif
+}
+#About{
+    display: flex;
+    gap: 2rem;
+    margin-left: 25%;
+}
+#MyProfile{
+    margin-left: auto;
+    padding-right: 6rem;
+}
+#MainPhoto{
+    height: 40rem;
+    display: block;
+}
+#Content{
+    height: 100%;
+    background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2020/10/16/thumbs_b_c_9e99c382646e91ed6fd6e2a7a38dab4b.jpg?v=180444");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;    
+}
+#SafeYourHealth{
+    margin-top: 12rem;
+}
+#Safe{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+#Buttons{
+    font-size: 1.5rem;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
